@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-image: url('https://wallpapers.com/images/hd/rick-and-morty-1920x1080-8kexjrsgq9mtlu6u.jpg');
+    background-color: #000000;
+    background-repeat:no-repeat;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.705);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+.logo {
+    padding: 50px;
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    cursor: grab; 
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filters input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #e0e0e0;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00c71b;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #148323;
+}
+
+#results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character {
+    border: 1px solid #444;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2c2c2c;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.character h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.character p {
+    font-size: 14px;
+    margin: 5px 0;
+}
